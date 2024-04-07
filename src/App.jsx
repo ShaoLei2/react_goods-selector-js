@@ -16,8 +16,7 @@ export const goods = [
   'Garlic',
 ];
 export const App = () => {
-  const goodStart = goods.find(value => value === 'Jam');
-  const [good, setGood] = useState(goodStart);
+  const [good, setGood] = useState('Jam');
 
   return (
     <main className="section container">
